@@ -1,0 +1,14 @@
+<html>
+
+  <h1 style = "text-align: center">Word Count</h1>
+
+  <form action="{% url 'count' %}">
+      <textarea name="fulltext" rows="8" cols="80" style = "display: block; margin-left:auto; margin-right:auto;"></textarea>
+      <br />
+
+      <input type="submit" name="" value="Count !" formaction="{% url 'count' %}" style = "display: block; margin-left:auto; margin-right:auto;"/>
+      <input type="submit" name="" value="About" formaction="{% url 'about' %}" style = "display: block; margin-left:auto; margin-right:auto; margin-top:5px"/>
+
+
+  </form>
+</html>
